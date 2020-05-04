@@ -160,6 +160,7 @@ Supported python version
 - 2.7
 - 3.3
 - 3.4
+- 3.7
 
 Python 3.2 will not be supported because Jinja2 is only supported on python >= 3.3 (Reference: http://jinja.pocoo.org/docs/intro/). If other rendering engines would be supported then python 3.2 can be supported for those engines.
 
@@ -180,3 +181,10 @@ License
 =======
 
 See LICENSE file. (MIT)
+
+Changelog
+=========
+Version 1.0.1 2020/04/04
+- Updated to allow for more recent package versions, and to reflect support of 3.7.
+
+The above should not be taken as any kind of commitment to support; this was a one-time need-fulfillment change.  
