@@ -18,9 +18,9 @@ settings.update(
     packages=find_packages(exclude=['.tox', '*test/']),
     scripts=['scripts/dj'],
     install_requires=[
-        'PyYAML==3.11',
-        'Jinja2==2.7.3',
-        'docopt==0.6.2',
+        'PyYAML>=3.11',
+        'Jinja2>=2.7.3',
+        'docopt>=0.6.2',
     ],
     license="MIT",
     url='https://github.com/Grokzen/docker-jinja',
